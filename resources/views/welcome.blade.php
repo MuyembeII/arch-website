@@ -37,7 +37,7 @@
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <h1>ARCH Project</h1>
+                <h1>ARCH Projects</h1>
                 <a href="{{ url('/projects') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Projects</a>
             </div>
         </div>
