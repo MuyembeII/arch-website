@@ -1,0 +1,10 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li a {
+    @apply rounded py-[7px] px-[13px] text-[17px]
+    transition-all duration-300
+}
