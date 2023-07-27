@@ -28,3 +28,25 @@ function navLinkClick() {
         hamburger.click();
     }
 }
+
+document.addEventListener("alpine:init", () => {
+    Alpine.data("imageSlider", () => ({
+        currentIndex: 1,
+        images: [
+            "/images/img1.jpg",
+            "/images/img2.jpg",
+            "/images/img3.jpg",
+            "/images/img4.jpg",
+        ],
+        previous() {
+            if (this.currentIndex > 1) {
+                this.currentIndex = this.currentIndex - 1;
+            }
+        },
+        forward() {
+            if (this.currentIndex < this.images.length) {
+                this.currentIndex = this.currentIndex + 1;
+            }
+        },
+    }));
+});

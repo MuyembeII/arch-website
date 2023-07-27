@@ -6,7 +6,13 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            width: {
+                130: "35rem",
+                160: "40rem",
+                200: "50rem",
+            },
+        },
     },
     plugins: [],
 };

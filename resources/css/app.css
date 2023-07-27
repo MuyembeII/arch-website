@@ -9,24 +9,31 @@ ul li a {
     transition-all duration-300
 }
 
-@media screen  and (max-width: 768px) {
+@media screen  and (max-width: 1020px) {
   .menu ul {
 position: absolute;
 width: 100%;
 height: calc(100vh - 60px);
 left: 0;
-top: 120px;
+top: 96px;
 flex-direction: column;
 /* align-items: center; */
 max-height: 0;
 overflow: hidden;
 transition: .3s;
+z-index: 12;
   }  
 
-.menu ul.open {
-    max-width: 100vh;
+.menu ul.open {   
     overflow: visible;
     max-height: 30%;
   
 }
+}
+
+@media screen  and (max-width: 640px) {
+  .menu ul {
+    max-width: 100vh;
+    
+  }
 }
