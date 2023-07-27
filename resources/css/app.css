@@ -1,0 +1,32 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li a {
+    @apply rounded py-[7px] px-[13px] text-[17px]
+    transition-all duration-300
+}
+
+@media screen  and (max-width: 768px) {
+  .menu ul {
+position: absolute;
+width: 100%;
+height: calc(100vh - 60px);
+left: 0;
+top: 120px;
+flex-direction: column;
+/* align-items: center; */
+max-height: 0;
+overflow: hidden;
+transition: .3s;
+  }  
+
+.menu ul.open {
+    max-width: 100vh;
+    overflow: visible;
+    max-height: 30%;
+  
+}
+}
