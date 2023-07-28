@@ -68,6 +68,7 @@
                     </template>
                 </div>
 
+
             </div>
 
             <div class=" mt-4 md:mt-0 md:pl-20 md:w-130">
@@ -76,6 +77,86 @@
             </div>
 
         </div>
+
+        <!-- Services -->
+        <div class="services dark:bg-gray-900 mt-4">
+
+
+
+            <div class="content dark:bg-gray-700  lg:mx-60">
+
+                <div class="title dark:bg-gray-800 py-2  text-white px-4">
+                    <h1 class="text-lg font-semibold">Summary Of Services</h1>
+                </div>
+                <div class=" flex list mx-4 py-4">
+                    <div class="sect-one flex flex-col font-medium text-white">
+                        <p>Service 1</p>
+                        <p>Service 2</p>
+                        <p> Service 3</p>
+                    </div>
+
+                    <div class="sect-two pl-20 text-white">
+                        <p>Service 4</p>
+                        <p>Service 5</p>
+                        <p>Service 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====== Cards Section Start -->
+        <section class="pt-10  pb-10 lg:pb-20 bg-[#F3F4F6] px-6 lg:px-60">
+
+            <div class="d">
+                <h1 class="text-lg font-semibold"> Fectured Services</h1>
+                <div class="line h-0.5 my-2 dark:bg-gray-400">
+                    <div class="line-2 h-1 w-1/6 dark:bg-gray-900"></div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+                            <img src="{{url('/images/img5.jpg')}}" alt="image" class="w-full h-52" />
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <p class="text-base text-body-color leading-relaxed mb-7">
+                                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
+                                    elit. Lorem consectetur adipiscing elit.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+                            <img src="{{url('/images/img6.jpg')}}" alt="image" class="w-full h-52" />
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+
+                                <p class="text-base text-body-color leading-relaxed mb-7">
+                                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
+                                    elit. Lorem consectetur adipiscing elit.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+                            <img src="{{url('/images/img7.jpg')}}" alt="image" class="w-full h-52" />
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+
+                                <p class="text-base text-body-color leading-relaxed mb-7">
+                                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
+                                    elit. Lorem consectetur adipiscing elit.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== Cards Section End -->
 
     </div>
 </body>
