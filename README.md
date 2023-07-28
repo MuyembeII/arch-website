@@ -33,15 +33,16 @@ Specify the system and software requirements for running the project locally. In
 
 Follow these steps to set up the project locally:
 
-1. Clone the repository: `git clone https://github.com/yourusername/project-name.git`
-2. Navigate to the project directory: `cd arch-project`
-3. Install PHP dependencies: `composer install`
-4. Install JavaScript dependencies: `npm install`
-5. Configure your environment by renaming `.env.example` to `.env` and setting up your database credentials.
-6. Generate application key: `php artisan key:generate`
-7. Run database migrations: `php artisan migrate`
-8. Build assets using Vite: `npm run dev`
-9. Start the development server: `php artisan serve`
+1.  Clone the repository: `git clone https://github.com/yourusername/project-name.git`
+2.  Navigate to the project directory: `cd arch-project`
+3.  Install PHP dependencies: `composer install`
+4.  Install JavaScript dependencies: `npm install`
+5.  Configure your environment by renaming `.env.example` to `.env` and setting up your database credentials.
+6.  Generate application key: `php artisan key:generate`
+7.  Run database migrations: `php artisan migrate`
+8.  Build assets using Vite: `npm run dev`
+9.  Start the development server: `php artisan serve`
+10. Start vite server: `npm run dev`
 
 ## Contributing
 
