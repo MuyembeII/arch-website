@@ -3,9 +3,11 @@ import "./bootstrap";
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".menu ul");
 const navLinks = document.querySelectorAll(".menu a");
+const year = document.querySelector("#year");
 
 allEventListeners();
 
+// Mobile menu
 function allEventListeners() {
     if (hamburger) {
         hamburger.addEventListener("click", togglerClick);
@@ -29,6 +31,7 @@ function navLinkClick() {
     }
 }
 
+// Image slider
 document.addEventListener("alpine:init", () => {
     Alpine.data("imageSlider", () => ({
         currentIndex: 1,
@@ -50,3 +53,12 @@ document.addEventListener("alpine:init", () => {
         },
     }));
 });
+
+// Get current year
+const getCurrentYear = () => {
+    let currentYear = new Date();
+    let date = currentYear.getFullYear();
+    return (year.innerHTML = `<p class="mt-8 text-xs text-gray-500">© ${date} arch project </p>`);
+};
+
+getCurrentYear();
