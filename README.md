@@ -1,11 +1,11 @@
-# arch-project
+# Arch-Project
 
 ARCH Website
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](CHANGELOG.md)
 
-Welcome to the **Arch-project** repository! This project is built using Laravel, Vite, and Tailwind CSS, providing a powerful and efficient combination for web development. Below, you'll find useful information to get started with the project.
+Welcome to the **Arch-Project** repository! This project is built using Laravel, Vite, and Tailwind CSS, providing a powerful and efficient combination for web development. Below, you'll find useful information to get started with the project.
 
 ## Table of Contents
 

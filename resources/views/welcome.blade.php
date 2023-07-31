@@ -47,7 +47,7 @@
 
         <!-- Hero -->
         <div class=" flex mt-6 px-2 lg:px-60 flex-col md:flex-row">
-            <div x-data="imageSlider" class="relative  max-w-2xl overflow-hidden rounded-md bg-gray-100 p-2 sm:p-4">
+            <div x-data="imageSlider" class="relative  max-w-2xl overflow-hidden bg-gray-100 p-2 sm:p-4">
                 <div class="absolute right-5 top-5 z-10 rounded-full bg-gray-600 px-2 text-center text-sm text-white">
                     <span x-text="currentIndex"></span>/<span x-text="images.length"></span>
                 </div>
@@ -104,19 +104,19 @@
             </div>
         </div>
 
-        <!-- ====== Cards Section Start -->
+        <!-- ====== Featured Services Cards Section Start -->
         <section class="pt-10  pb-10 lg:pb-20 bg-[#F3F4F6] px-6 lg:px-60">
 
             <div class="d">
-                <h1 class="text-lg font-semibold"> Fectured Services</h1>
+                <h1 class="text-2xl font-bold"> Featured Services</h1>
                 <div class="line h-0.5 my-2 dark:bg-gray-400">
                     <div class="line-2 h-1 w-1/6 dark:bg-gray-900"></div>
                 </div>
             </div>
             <div class="container mt-4">
                 <div class="flex flex-wrap -mx-4">
-                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+                    <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+                        <div class="bg-white overflow-hidden mb-10">
                             <img src="{{url('/images/img5.jpg')}}" alt="image" class="w-full h-52" />
                             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                 <p class="text-base text-body-color leading-relaxed mb-7">
@@ -127,8 +127,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+
+                    <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+                        <div class="bg-white overflow-hidden mb-10">
                             <img src="{{url('/images/img6.jpg')}}" alt="image" class="w-full h-52" />
                             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
 
@@ -140,8 +141,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-                        <div class="bg-white rounded-lg overflow-hidden mb-10">
+
+                    <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+                        <div class="bg-white overflow-hidden mb-10">
+                            <img src="{{url('/images/img7.jpg')}}" alt="image" class="w-full h-52" />
+                            <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+
+                                <p class="text-base text-body-color leading-relaxed mb-7">
+                                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
+                                    elit. Lorem consectetur adipiscing elit.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/2 xl:w-1/4 px-4">
+                        <div class="bg-white overflow-hidden mb-10">
                             <img src="{{url('/images/img7.jpg')}}" alt="image" class="w-full h-52" />
                             <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
 
@@ -156,8 +172,23 @@
                 </div>
             </div>
         </section>
-        <!-- ====== Cards Section End -->
+        <!-- ====== Featured Services Cards Section Start End -->
 
+        <!-- Partners Section -->
+        <div class="partners my-6 px-6 lg:px-64">
+            <div class="container">
+                <h1 class="text-2xl text-center font-bold">Arch Project has worked On various project and is trusted</h1>
+                <p class="text-center font-semibold text-lg py-4 ">Below are our trusted partners and customers</p>
+                <div class="partners-img flex justify-center pb-4 ">
+                    <img src="{{url('/images/partners1.png')}}" alt="image" class="w-20 h-14 mx-2 md:mx-4">
+                    <img src="{{url('/images/partners2.png')}}" alt="image" class="w-20 h-14 mx-2 md:mx-4">
+                    <img src="{{url('/images/partners3.png')}}" alt="image" class="w-20 h-14 mx-2 md:mx-4">
+                    <img src="{{url('/images/partners4.png')}}" alt="image" class="w-20 h-14 mx-2 md:mx-4">
+
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 
