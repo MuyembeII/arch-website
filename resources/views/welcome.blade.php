@@ -142,7 +142,7 @@ Home
         <!-- Partners Section -->
         <div class="partners my-6 px-6 lg:px-64">
             <div class="container">
-                <h1 class="text-2xl text-center font-bold">Arch Project has worked On various project and is trusted</h1>
+                <h1 class="text-2xl text-center font-semibold">Arch Project has worked On various projects and is trusted</h1>
                 <p class="text-center font-semibold text-lg text-gray-500 py-4 ">Below are our trusted partners and customers</p>
                 <div class="partners-img flex justify-center pb-4 ">
                     <img src="{{url('/images/partners1.png')}}" alt="image" class="w-20 h-14 mx-2 md:mx-4">
